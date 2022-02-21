@@ -1,0 +1,141 @@
+table {
+    border-collapse: collapse;
+}
+td {
+    width: 100px;
+    height: 20px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr.tr1 {
+    background-color: #268f8f;
+}
+tr.tr1:hover {
+    background-color: #f5f526;
+}
+tr.tr2 {
+    background-color: #f5f526;
+}
+tr.tr2:hover {
+    background-color: #268f8f;
+}
+
+.pa {
+    position: absolute;
+}
+
+div.phone {
+    top: 220px;
+    left: 20px;
+    border: 1px solid black;
+    background-color: #D0E39F;
+    border-radius: 25px;
+    width: 150px;
+    height: 300px;
+}
+
+div.screen {
+    top: 10px;
+    left: 10px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+p.time {
+    top: 0px;
+    left: 20px;
+    font-size: 2.5em;
+}
+
+div.button {
+    background-color: #523A69;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+div.row1 {
+    top: 160px;
+}
+div.row2 {
+    top: 200px;
+}
+div.row3 {
+    top: 240px;
+}
+
+div.col1 {
+    left: 15px;
+}
+div.col2 {
+    left: 60px;
+}
+div.col3 {
+    left: 105px;
+}
+
+div.device {
+    transform: matrix(1, 0, 0, 1, 200, 90);
+    border: 1px solid black;
+    background-color: #D0E39F;
+    border-radius: 25px;
+    width: 150px;
+    height: 300px;
+}
+
+div.display {
+    transform: matrix(1, 0, 0, 1, 10, 10);
+    border: 1px solid black;
+    background-color: #ffffff;
+    border-radius: 25px;
+    width: 130px;
+    height: 130px;
+}
+
+p.data {
+    transform: matrix(1, 0, 0, 1, 20, 0);
+    font-size: 2.5em;
+}
+
+div.but {
+    background-color: #523A69;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+div.button1 {
+    transform: matrix(1, 0, 0, 1, 15, 20);
+}
+div.button2 {
+    transform: matrix(1, 0, 0, 1, 60, -6);
+}
+div.button3 {
+    transform: matrix(1, 0, 0, 1, 105, -34);
+}
+div.button4 {
+    transform: matrix(1, 0, 0, 1, 15, -15);
+}
+div.button5 {
+    transform: matrix(1, 0, 0, 1, 60, -41);
+}
+div.button6 {
+    transform: matrix(1, 0, 0, 1, 105, -67);
+}
+div.button7 {
+    transform: matrix(1, 0, 0, 1, 15, -48);
+}
+div.button8 {
+    transform: matrix(1, 0, 0, 1, 60, -74);
+}
+div.button9 {
+    transform: matrix(1, 0, 0, 1, 105, -101);
+}
+
+

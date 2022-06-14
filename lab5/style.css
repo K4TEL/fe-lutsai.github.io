@@ -1,0 +1,17 @@
+.active {
+  background-color: blue;
+  color: yellow;
+}
+
+.img-wrapper {
+    display: inline-block; /* change the default display type to inline-block */
+    overflow: hidden;      /* hide the overflow */
+}
+
+.zoom {
+  transform: scale(1.5);
+}
+
+.less {
+  transform: scale(0.5);
+}

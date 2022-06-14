@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Front End course project">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Lutsai K. A. IT-91 Lab6 V6</title>
+</head>
+<body>
+  <div class="form">
+    <div>
+      <form action="#" onsubmit="validate(); return false">
+        <input type="text" id="name" placeholder="Surname N. F."/> <br>
+        <input type="text" id="number" placeholder="(000)-000-00-00" /><br>
+        <input type="text" id="faculty" placeholder="faculty" /><br>
+        <input type="text" id="date" placeholder="dd.mm.yyyy" /><br>
+        <input type="text" id="adress" placeholder="c. City" /><br>
+        <input type="submit" value="Validate"/>
+      </form>
+    </div>
+    <div>
+      <p><b>PIB: </b><span id="nameT"></span></p>
+      <p><b>Number: </b><span id="numberT"></span></p>
+      <p><b>Faculty: </b><span id="facultyT"></span></p>
+      <p><b>Birth: </b><span id="dateT"></span></p>
+      <p><b>Adress: </b><span id="adressT"></span></p>
+    </div>
+    <div>
+      <input type="color" id="colorpicker" value="#ff0000">
+      <table id="table" border="1"> </table>
+    </div>
+  </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

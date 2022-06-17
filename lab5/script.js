@@ -23,9 +23,15 @@ var mod = "https://dutchreview.com/wp-content/uploads/red-light-district-3292225
 
 document.getElementById("zoom").addEventListener('click', function onClick(event) {
   picture.classList.toggle("zoom");
+  if (picture.classList.contains("less")) {
+    picture.classList.toggle("less");
+  }
 });
 document.getElementById("less").addEventListener('click', function onClick(event) {
   picture.classList.toggle("less");
+  if (picture.classList.contains("zoom")) {
+    picture.classList.toggle("zoom");
+  }
 });
 
 document.getElementById("add").addEventListener('click', function onClick(event) {
